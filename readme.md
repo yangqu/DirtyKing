@@ -10,10 +10,10 @@
 ### **粗暴且没有素质的模型** 这是一个专门说粗话的模型可以使用它来骂你
 ### **DirtyKing** 是基于 `Qwen/Qwen3-4B-Instruct-2507` 基底模型，利用 **DPO (Direct Preference Optimization)** 直接偏好优化技术进行后训练（Post-training）的对齐模型。本模型旨在对齐特定的中文偏好对话风格，在保持原有优秀语言能力的同时，优化了回复的拟人感和特定场景下的表现力。
 
-* **原始偏好数据集1：** [Karsh-CAI/btfChinese-DPO-small](https://huggingface.co/datasets/Karsh-CAI/btfChinese-DPO-small
+* **原始偏好数据集1：** [[Karsh-CAI/btfChinese-DPO-small](https://huggingface.co/datasets/Karsh-CAI/btfChinese-DPO-small](https://huggingface.co/datasets/Karsh-CAI/btfChinese-DPO-small)
 * **原始偏好数据集2：** [dpo_mix_zh](llamafactory/DPO-En-Zh-20k)
 * **训练框架：** LLaMA-Factory
-
+* **模型链接：** [millennium-qu/DirtyKing](https://huggingface.co/datasets/Karsh-CAI/btfChinese-DPO-small](https://huggingface.co/millennium-qu/DirtyKing)
 ---
 
 ## 💻 显卡与训练细节 / Training Details
