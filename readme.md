@@ -31,10 +31,12 @@
 
 ---
 ## 🚀 安装环境 / Setup
+```shell
 git clone https://github.com/yangqu/DirtyKing.git
 cd DirtyKing
 pip install -r requirements.txt
 python Dirty.py
+```
 
 ## 🚀 快速开始与交互对话 / Quick Start
 
