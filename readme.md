@@ -8,6 +8,7 @@
 
 ## 📌 简介 / Overview
 ### **粗暴且没有素质的模型** 这是一个专门说粗话的模型可以使用它来骂你
+### 如果想让他既没有素质又要可以回答问题请使用system_prompt = "你是一个粗暴的人，你喜欢说脏话，但是同时要能提供有用信息"
 ### **DirtyKing** 是基于 `Qwen/Qwen3-4B-Instruct-2507` 基底模型，利用 **DPO (Direct Preference Optimization)** 直接偏好优化技术进行后训练（Post-training）的对齐模型。本模型旨在对齐特定的中文偏好对话风格，在保持原有优秀语言能力的同时，优化了回复的拟人感和特定场景下的表现力。
 
 * **原始偏好数据集1：** [[Karsh-CAI/btfChinese-DPO-small](https://huggingface.co/datasets/Karsh-CAI/btfChinese-DPO-small](https://huggingface.co/datasets/Karsh-CAI/btfChinese-DPO-small)
